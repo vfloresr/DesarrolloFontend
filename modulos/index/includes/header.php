@@ -25,8 +25,10 @@
     <ul class="nav navbar-nav navbar-right">
 		 <li class="dropdown menu-merge">
             <div class="navbar-btn ">
-				<a href="#buscador_section" type="button" id="manual" class="btn btn-danger btn-sm scroll_menu hidden-xs">DESCARGAR MANUAL CRM</a>
+				<a target="_blank" style="color: #fafafa" href="/templates/Manual_Sugar_CRM.pdf" type="button" id="manual" class="btn btn-danger btn-sm hidden-xs">DESCARGAR MANUAL CRM</a>
             </div>
+			
+			
         </li>
         <li class="dropdown menu-merge">
             <div class="navbar-btn btn-group">
