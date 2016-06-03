@@ -20,9 +20,14 @@
 			</div>
 			<a href="#buscador_section" type="button" id="buscar_contacto_anchor" class="btn btn-danger btn-sm scroll_menu hidden-xs"><i class="fa fa-search"></i></a>
 		<?php } ?>
-		<span id="header_label_title" class="hidden-xs hidden-sm hidden-md" style="font-size: 19px;color: white;"><b>CROSS ESPERADO: <?php echo($_SESSION['crosselling_sucursal']) ?>% / CROSS CONSULTOR: <?php echo($_SESSION['crosselling_ejecutiva']) ?>% </b></span>
+		<!-- <span id="header_label_title" class="hidden-xs hidden-sm hidden-md" style="font-size: 19px;color: white;"><b>CROSS ESPERADO: <?php // echo($_SESSION['crosselling_sucursal']) ?>% / CROSS CONSULTOR: <?php //echo($_SESSION['crosselling_ejecutiva']) ?>% </b></span> -->
     </div>
     <ul class="nav navbar-nav navbar-right">
+		 <li class="dropdown menu-merge">
+            <div class="navbar-btn ">
+				<a href="#buscador_section" type="button" id="manual" class="btn btn-danger btn-sm scroll_menu hidden-xs">DESCARGAR MANUAL CRM</a>
+            </div>
+        </li>
         <li class="dropdown menu-merge">
             <div class="navbar-btn btn-group">
                 <button data-toggle="dropdown" onclick="Mensajes.init();Mensajes.cargarConversacionesChat();" class="btn btn-sm dropdown-toggle">
